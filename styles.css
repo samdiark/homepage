@@ -186,3 +186,10 @@ footer {
   html { scroll-behavior: auto; }
   * { transition: none !important; }
 }
+
+
+/* Remove decorative arc and vertical scroll label */
+.hero::before,
+.scroll-note {
+  display: none !important;
+}
